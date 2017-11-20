@@ -1,0 +1,52 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="32dp"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/tableCell1"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tableCell2"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/tableCell3"
+        android:layout_width="10dp"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/informationCell"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_weight="1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tableCell4"
+        android:layout_width="10dp"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tableCell5"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/tableCell6"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+
+</TableRow>
